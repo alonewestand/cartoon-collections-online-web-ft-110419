@@ -22,8 +22,13 @@ end
 
 def find_the_cheese(is_it_cheese)
     cheese_types = %w[cheddar gouda camembert]
+<<<<<<< HEAD
     
     is_it_cheese.find do |is_it_cheese|
     cheese_types.include?(is_it_cheese)
+=======
+      is_it_cheese.find do |suspected_cheese| cheese_types.include?(is_it_cheese)
+      if true puts is_it_cheese
+>>>>>>> b57fa1abe991b4b546039208621c60bbd77cf28d
   end
 end
